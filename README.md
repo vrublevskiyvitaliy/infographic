@@ -1,2 +1,2 @@
-CV written in LaTeX
+# CV written in LaTeX
 Placeholder Description
