@@ -1,5 +1,5 @@
 # Infographic CV written in LaTeX
-This is the template I use for my own resume. it is a result of a combination of ideas from several templates, including:
+This is the template I use for my own resume. it combines ideas from several templates, including:
 
 1. [opensorceror's Smart Twenty Seconds Curriculum Vitae](https://github.com/opensorceror/Data-Engineer-Resume-LaTeX)
 2. [Carmine Spagnuolo's Twenty Seconds Curriculum Vitae](https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex)
