@@ -164,6 +164,12 @@
 	}
 }
 
+\newcommand\giturl[1]{
+	\renewcommand{\giturl}{#1}{
+	{\href{#1}{\includegraphics[scale=0.025]{img/git_logo.png}}}
+	}
+}
+
 %----------------------------------------------------------------------------------------
 %  SIDEBAR LAYOUT
 %----------------------------------------------------------------------------------------
@@ -320,6 +326,24 @@
         \ifblank{#4}{}{#4 \\}
 		#5\vspace{\parsep}%
 	}\\
+}
+
+\newcommand{\twentyitemNew}[5]{%
+	#1&\parbox[t]{0.92\textwidth}{%
+		\textbf{#2}%
+		\hfill%
+		{\footnotesize#3}\\%
+        \ifblank{#4}{}{#4 \\}
+		#5\vspace{\parsep}%
+	}\\
+}
+
+\newcommand{\projectItem}[2]{%
+	{%
+		\textbf{#1}
+		\ifthenelse{\equal{#2}{}}{}
+		{\\ \footnotesize#2}
+	}
 }
 
 %----------------------------------------------------------------------------------------
