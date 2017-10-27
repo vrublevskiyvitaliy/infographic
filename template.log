@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 OCT 2017 16:50
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 OCT 2017 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1177,6 +1177,9 @@ LaTeX Info: Redefining \nameref on input line 55.
 \openout5 = `template.out'.
 
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1332,33 +1335,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--81
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--117
+Underfull \hbox (badness 10000) in paragraph at lines 90--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--154
+Underfull \hbox (badness 10000) in paragraph at lines 113--135
 
  []
 
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
  (./template.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 139.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 139.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  33807 strings out of 493591
  652367 string characters out of 6143547
- 691242 words of memory out of 5000000
+ 689242 words of memory out of 5000000
  36789 multiletter control sequences out of 15000+600000
  4176 words of font info for 37 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
