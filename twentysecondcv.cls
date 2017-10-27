@@ -126,6 +126,8 @@
 
 \newcommand{\profilesection}[2]{\vspace{4pt}{\color{black!80} \Large #1 \rule[0.1\baselineskip]{#2}{1pt}}}
 
+\newcommand{\profilesectionAwards}[2]{\vspace{1pt}{\color{black!80} \Large #1 \rule[0.1\baselineskip]{#2}{1pt}}}
+
 % Define custom commands for CV info
 \newcommand{\cvdate}[1]{\renewcommand{\cvdate}{#1}}
 \newcommand{\cvlinkedin}[1]{\renewcommand{\cvlinkedin}{#1}}
@@ -142,6 +144,7 @@
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
 \newcommand{\awards}[1]{\renewcommand{\awards}{#1}}
+\newcommand{\publications}[1]{\renewcommand{\publications}{#1}}
 \newcommand{\personal}[1]{\renewcommand{\personal}{#1}}
 
 
@@ -245,31 +248,14 @@
               $} 
             & \href{mailto:\cvmail}{\cvmail}}
     \end{tabular}
-
-    %------------------------------------------------
-        \vspace{4mm}
-        \profilesection{Skills}{4.7cm}
-
-    	\skills
-        
-        %------------------------------------------------
-        \vspace{4mm}
-        \profilesection{Languages}{3.5cm} \\
-        {$
-              \begin{array}{l}
-              %\hspace{-2mm}
-		{\includegraphics[scale=0.6]{ppp}}
-              \end{array}
-        $}  
-	\\
 	%------------------------------------------------
-        \vspace{5mm}
-        \profilesection{Awards}{4cm}
+        \profilesection{Competitions}{3cm}
         \awards
+    %------------------------------------------------
+        \profilesection{Publications}{3cm}
+        \publications
 	%------------------------------------------------
-        \vspace{5mm}
-        \profilesection{Personal qualities}{1.7cm} 
-        
+        \profilesection{Personal qualities}{1.7cm}
         \personal
 
 
