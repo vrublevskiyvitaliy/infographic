@@ -136,6 +136,7 @@
 \newcommand{\cvhaker}[1]{\renewcommand{\cvhaker}{#1}}
 \newcommand{\cvleetcode}[1]{\renewcommand{\cvleetcode}{#1}}
 \newcommand{\cvcodeforce}[1]{\renewcommand{\cvcodeforce}{#1}}
+\newcommand{\cvkaggle}[1]{\renewcommand{\cvkaggle}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
@@ -229,6 +230,13 @@
               \end{array}
               $}
              & \href{\cvcodeforce}{\hspace{30mm}Steel\_Rat11} \\}
+      \ifthenelse{\equal{\cvkaggle}{}}{}{
+            {$
+              \begin{array}{l}
+              {\href{\cvkaggle}{\includegraphics[scale=0.3]{img/kaggle.png}}}
+              \end{array}
+              $}
+             & \href{\cvkaggle}{\hspace{8mm}steelrat11} \\}
       \ifthenelse{\equal{\cvmail}{}}{}{
             {$
               \begin{array}{l}
