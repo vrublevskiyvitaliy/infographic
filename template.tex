@@ -1,19 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Twenty Seconds Resume/CV
-% LaTeX Template
-% Version 1.0 (14/7/16)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
-% Vel (vel@LaTeXTemplates.com) and Harsh Gadgil
-% Minor modifications by Fahim Al Jahangir
-% License:
-% The MIT License (see included LICENSE file)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -23,34 +7,49 @@
 
 % Command for printing skill progress bars
 \newcommand\skills{ 
-~
 	\smartdiagram[bubble diagram]{
-        \textbf{Data}\\\textbf{Science},
         \textbf{Programming},
-        \textbf{Cloud}\\\textbf{Computing},
-        \textbf{Machine}\\\textbf{Learning},
-        \textbf{~Visualisation~},
-        \textbf{Statistical}\\\textbf{Analysis}
+        \textbf{Computational}\\\textbf{Geometry},
+        \textbf{Data}\\\textbf{Structures},
+        \textbf{Visualisation},
+        \textbf{Mathematics},
+        \textbf{Algorithms}
     }
 }
 
-\interests{{Stock market/5},{Drone Security/4.5},{AI/3},{Big Data/4},{Data Science/6}}
+%\interests{{Machine Learning/4}, {Computational Geometry/4}, {Mathematics/5}, {Algorithmic problems/6}}
+\awards {
+\textbf{University:} 
+\begin{itemize}
+	\item Particiant of 2014 and 2015 Ukraine ACM ICPC.
+\end{itemize}
+\textbf{High School:}
+\begin{itemize}
+	\item 2013: 27th All Ukrainian Olympiad in Informatics, Lugansk, Ukraine\\ \textbf{third diploma}.
+\end{itemize}
+}
 
+\personal {
+\begin{itemize}
+	\item Team player, purposeful, responsible, sociable, patient, disciplined and fast learner.
+\end{itemize}
+        
+
+}
 %----------------------------------------------------------------------------------------
 %	 PERSONAL INFORMATION
 %----------------------------------------------------------------------------------------
 
 % If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
 
+\cvname{Vitalii Vrublevskyi} % Your name
+\cvjobtitle{Software Engineer} % Job title/career
+\cvlinkedin{https://www.linkedin.com/in/vitalii-vrublevskyi}% LinkedIn
 
+\cvnumberphone{+380680550459} % Phone number
+\cvmail{vitaliyvrublevskiy@gmail.com} % Email address
 
-\cvname{Fahim Jahangir} % Your name
-\cvjobtitle{ Associate Data Analyst} % Job title/career
-\cvlinkedin{https://linkedin.com/in/fahim-aj/}
-\cvnumberphone{+61 0423 815 908} % Phone number
-\cvmail{fahim.a.jahangir@gmail.com} % Email address
-\cvsite{github.com/Ryukojin} % Personal website
-
+\cvsite{github.com/vrublevskiyvitaliy} % Personal website
 
 %----------------------------------------------------------------------------------------
 
@@ -65,16 +64,18 @@
 
 \begin{twenty} % Environment for a list with descriptions
 	\twentyitem
-    	{Expected \\ Oct 2018}
-        {Master of Business Analytics}
-        {La Trobe University}
-        {Melbourne, VIC, Australia}
+    	{Expected \\ June 2019}
+        {Master degree in Informatics}
+         {Kyiv, Ukraine}
+        {Taras Shevchenko National University of Kyiv}
+        {Faculty of Computer Science and Cybernetics}
         
 	\twentyitem
-    	{2013 - 2015}
-        {BA., Accounting and Finance}
-        {Heriot Watt University}
-        {Dubai, United Arab Emirates}
+    	{June 2017}
+        {Bachelor degree with Honours in Informatics}
+        {Kyiv, Ukraine}
+        {Taras Shevchenko National University of Kyiv}
+        {Faculty of Computer Science and Cybernetics}
         
 	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
 \end{twenty}
@@ -88,39 +89,31 @@
 
 \begin{twenty} % Environment for a list with descriptions
 	\twentyitem
-    	{Feb 2017 - \\Present}
-        {Content Writer}
-        {dronsec.xyz}
-        {}
-        {
+    	{Sep 2015 - \\Present}
+        {Software Engineer}
+        {lun.ua}
+        {Kyiv, Ukraine}
+        {Lun.Novostroyki - service for choosing apartments at new buildings.
         {\begin{itemize}
-        \item Part of a startup team of two, writing articles and arranging podcasts with security experts related to Drone Security.
-    \end{itemize}}
+        \item Languages: PHP, Python, MySQL, JS.
+	\item Technologies: Elasticsearch, Angular 2.
+        \item Localization and internationalization of project.
+        \item Provided ideas to improve project architecture, divided tasks into stages and implemented them. 
+        \end{itemize}}
         }
         
     \twentyitem
-   		{Sept 2015}
-        {Data Analyst \& Bookkeeping}
-        {Eskimo Techincal Contracting}
-        {}
-        {
+   	{Sep 2015 - \\Dec 2016}
+        {Software Engineer (Remote)}
+        {MP5 Project - WeDesign.Live}
+        {London, UK}
+        {Web based live collaborative platform for designing with slicer software.
         {\begin{itemize}
-        \item Placeholder
-    \end{itemize}}
+        \item Languages: JavaScript, C++, Python.
+        \item Skills: Computational Geometry, Linear Algebra,  3D solid modelling, high performance numerical and graphical calculations on browser (JS/Emscripten); 
+        \item Developed JavaScript side of designer, architecture for constructive solid geometry (CSG) technique, implemented tree based data structure which decreased required memory and calculation time.
+         \end{itemize}}
         }
-        
-    \twentyitem
-   		{Sept 2015}
-        {Bookkeeping \& IT support}
-        {Al Shehil Real Estate}
-        {}
-        {
-        {\begin{itemize}
-        \item Placeholder
-    \end{itemize}}
-        }
-        
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
 
@@ -128,68 +121,36 @@
 \begin{twenty}
 	\twentyitem
     	{2017}
-        {Telstra Customer Analysis}
-        {\href{http://www.uoguelph.ca/}{La Trobe University}}
-        {}
-        {
-        {\begin{itemize}
-        \item Placeholder
-       
-    \end{itemize}}
-        }
+        {NBA Totalizator based on Naive Bayes}
+         {}
+        {Taras Shevchenko National University of Kyiv}
+        {Simple predictive model of NBA game based on Naive Bayes approach using results of previous games.}
 \end{twenty}
-
-
-\section{Certifications}
-\begin{twenty} % Environment for a list with descriptions
+\begin{twenty}
 	\twentyitem
     	{2017}
-        {Complete SQL Bootcamp with Postgre SQL}
-        {udemy.com}
-        {}
-        {}
-        
+        {Named Entity Recognition}
+         {}
+        {Taras Shevchenko National University of Kyiv}
+        {We chose the CRF method and researched what features could be used, what annotations of named entities get better results, and tested the stability of them at Spanish and Dutch language. }
+\end{twenty}
+
+\section{Publications}
+\begin{twenty}
 	\twentyitem
     	{2017}
-        {Data Science Orientation}
-        {edX.org}
+        {Constructing a unified algorithmic platform based on Voronoi diagram.}
         {}
-        {}
-        
-        
-	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+        {PDMU-2017 XXIX International Conference}
+        {Paper is dedicated to the development of a unified algorithmic platform to create visualization and computer modeling systems.}
 \end{twenty}
-
-\section{Other Information}
-\begin{twenty} % Environment for a list with descriptions
+\begin{twenty}
 	\twentyitem
-    	{Residency}
-        {Australian Student Visa}
-        {Subclass 500}
+    	{2017}
+        {Greedy approach for solving Art Gallery Problem}
         {}
-        {}
-        
-	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+        {XV International conference "Shevchenkivska Spring 2017"}
+        {We proposed greedy approach using Segment Tree and Polygon Convex Decomposition.}
 \end{twenty}
-
-\section{References}
-\begin{twenty} % Environment for a list with descriptions
-	\twentyitem
-    	{+61*******}
-        {Mr. X}
-        {Dead Corps.Org}
-        {Consultant}
-        {123@mail.com}
-        
-	\twentyitem
-    	{+61*******}
-        {Mr.Y}
-        {Umbrella Industries}
-        {CEO}
-        {456@mail.comm}
-        
-	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
-\end{twenty}
-
 
 \end{document} 

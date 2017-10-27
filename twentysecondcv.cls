@@ -124,7 +124,7 @@
 \pgfmathsetlength{\imagewidth}{5cm}
 \pgfmathsetlength{\imagescale}{\imagewidth/600}
 
-\newcommand{\profilesection}[2]{\vspace{8pt}{\color{black!80} \huge #1 \rule[0.15\baselineskip]{#2}{1pt}}}
+\newcommand{\profilesection}[2]{\vspace{4pt}{\color{black!80} \Large #1 \rule[0.1\baselineskip]{#2}{1pt}}}
 
 % Define custom commands for CV info
 \newcommand{\cvdate}[1]{\renewcommand{\cvdate}{#1}}
@@ -137,6 +137,9 @@
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
+\newcommand{\awards}[1]{\renewcommand{\awards}{#1}}
+\newcommand{\personal}[1]{\renewcommand{\personal}{#1}}
+
 
 % Command for printing the contact information icons
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
@@ -170,7 +173,7 @@
     %------------------------------------------------
     
         \vspace{4mm}
-    {\Huge\color{pblue}\cvname}
+    {\huge\color{pblue}\cvname}
 
     %------------------------------------------------
     
@@ -187,7 +190,7 @@
               \begin{array}{l}
               {\href{\cvlinkedin}{\includegraphics[scale=0.04]{img/LinkedIn_Logo.png}}}
               \end{array}
-              $} & \href{\cvlinkedin}{\hspace{16mm}/in/fahim-aj} \\
+              $} & \href{\cvlinkedin}{\hspace{16mm}vitalii-vrublevskyi} \\
             }
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
             {$
@@ -213,24 +216,34 @@
     \end{tabular}
 
     %------------------------------------------------
-        \vspace{3mm}
-        \profilesection{Skills}{4cm}
+        \vspace{4mm}
+        \profilesection{Skills}{4.7cm}
 
     	\skills
         
         %------------------------------------------------
-        \vspace{3mm}
-        \profilesection{Interests}{3cm} 
-        
-        \interests
-        
-        \vspace{3mm}
-        \profilesection{Languages}{2.4cm} 
+        \vspace{4mm}
+        \profilesection{Languages}{3.5cm} \\
         {$
               \begin{array}{l}
-              \hspace{-2mm}{\includegraphics[scale=0.35]{img/pi.png}}
+              %\hspace{-2mm}
+		{\includegraphics[scale=0.6]{ppp}}
               \end{array}
-        $}   
+        $}  
+	\\
+	%------------------------------------------------
+        \vspace{5mm}
+        \profilesection{Awards}{4cm}
+        \awards
+	%------------------------------------------------
+        \vspace{5mm}
+        \profilesection{Personal qualities}{1.7cm} 
+        
+        \personal
+
+
+
+ 
   \end{textblock}
 }
 
