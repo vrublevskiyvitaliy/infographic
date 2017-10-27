@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  20 OCT 2017 20:04
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 OCT 2017 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1235,30 +1235,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 58.
 File: img/LinkedIn_Logo.png Graphic file (type QTm)
 <use  "img/LinkedIn_Logo.png" >
-Overfull \hbox (61.83357pt too wide) in paragraph at lines 58--58
+Overfull \hbox (41.76965pt too wide) in paragraph at lines 58--58
 []$[]$| 
  []
 
 File: img/tel.png Graphic file (type QTm)
 <use  "img/tel.png" >
-Overfull \hbox (7.24155pt too wide) in paragraph at lines 58--58
+Overfull \hbox (2.1019pt too wide) in paragraph at lines 58--58
 []$[]$| 
  []
 
-File: img/globe-512.png Graphic file (type QTm)
-<use  "img/globe-512.png" >
-Overfull \hbox (7.24475pt too wide) in paragraph at lines 58--58
+File: img/git_logo.png Graphic file (type QTm)
+<use  "img/git_logo.png" >
+Overfull \hbox (1.37547pt too wide) in paragraph at lines 58--58
 []$[]$| 
  []
 
 File: img/email.png Graphic file (type QTm)
 <use  "img/email.png" >
-Overfull \hbox (7.24475pt too wide) in paragraph at lines 58--58
+Overfull \hbox (2.10054pt too wide) in paragraph at lines 58--58
 []$[]$| 
  []
 
 
-Overfull \hbox (14.22643pt too wide) in paragraph at lines 58--58
+Overfull \hbox (11.38098pt too wide) in paragraph at lines 58--58
 [][] 
  []
 
@@ -1341,7 +1341,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
  33903 strings out of 493591
- 654283 string characters out of 6143547
+ 654281 string characters out of 6143547
  690788 words of memory out of 5000000
  36880 multiletter control sequences out of 15000+600000
  4184 words of font info for 38 fonts, out of 8000000 for 9000

@@ -183,33 +183,32 @@
     
         \vspace{5mm}
     \renewcommand{\arraystretch}{1.6}
-    \begin{tabular}{p{1cm} @{\hskip 0.5cm}p{5cm}}
-        
+    \begin{tabular}{p{1cm} @{\hskip 0.4cm}p{5cm}}
           \ifthenelse{\equal{\cvlinkedin}{}}{}{
             {$
               \begin{array}{l}
-              {\href{\cvlinkedin}{\includegraphics[scale=0.04]{img/LinkedIn_Logo.png}}}
+              {\href{\cvlinkedin}{\includegraphics[scale=0.03]{img/LinkedIn_Logo.png}}}
               \end{array}
-              $} & \href{\cvlinkedin}{\hspace{16mm}vitalii-vrublevskyi} \\
+              $} & \href{\cvlinkedin}{\hspace{10mm}vitalii-vrublevskyi} \\
             }
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
             {$
               \begin{array}{l}
-              \includegraphics[scale=0.1]{img/tel.png}
+              \includegraphics[scale=0.08]{img/tel.png}
               \end{array}
               $} 
             & \cvnumberphone\\}
       \ifthenelse{\equal{\href{\cvsite}{\cvsite}}{}}{}{
             {$
               \begin{array}{l}
-              {\href{\cvsite}{\includegraphics[scale=0.05]{img/globe-512.png}}}
+              {\href{\cvsite}{\includegraphics[scale=0.045]{img/git_logo.png}}}
               \end{array}
               $} 
             & \cvsite\\}
       \ifthenelse{\equal{\cvmail}{}}{}{
             {$
               \begin{array}{l}
-              {\href{mailto:\cvmail}{\includegraphics[scale=0.05]{img/email.png}}}
+              {\href{mailto:\cvmail}{\includegraphics[scale=0.04]{img/email.png}}}
               \end{array}
               $} 
             & \href{mailto:\cvmail}{\cvmail}}
