@@ -41,8 +41,8 @@
       <file leaf-file-name="twentysecondcv.cls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twentysecondcv.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8076923" vertical-offset="3843" max-vertical-offset="6015">
-              <caret line="259" column="15" selection-start-line="259" selection-start-column="15" selection-end-line="259" selection-end-column="15" />
+            <state vertical-scroll-proportion="-3.0576923" vertical-offset="3876" max-vertical-offset="6150">
+              <caret line="269" column="29" selection-start-line="269" selection-start-column="29" selection-end-line="269" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="template.tex" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4213836" vertical-offset="1488" max-vertical-offset="1965">
-              <caret line="54" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8742138" vertical-offset="1383" max-vertical-offset="2235">
+              <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -66,8 +66,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template.tex" />
         <option value="$PROJECT_DIR$/twentysecondcv.cls" />
+        <option value="$PROJECT_DIR$/template.tex" />
       </list>
     </option>
   </component>
@@ -450,16 +450,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twentysecondcv.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8076923" vertical-offset="3843" max-vertical-offset="6015">
-          <caret line="259" column="15" selection-start-line="259" selection-start-column="15" selection-end-line="259" selection-end-column="15" />
+        <state vertical-scroll-proportion="-3.0576923" vertical-offset="3876" max-vertical-offset="6150">
+          <caret line="269" column="29" selection-start-line="269" selection-start-column="29" selection-end-line="269" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4213836" vertical-offset="1488" max-vertical-offset="1965">
-          <caret line="54" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8742138" vertical-offset="1383" max-vertical-offset="2235">
+          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
           <folding />
         </state>
       </provider>

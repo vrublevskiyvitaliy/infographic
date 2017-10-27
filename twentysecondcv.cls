@@ -146,6 +146,7 @@
 \newcommand{\awards}[1]{\renewcommand{\awards}{#1}}
 \newcommand{\publications}[1]{\renewcommand{\publications}{#1}}
 \newcommand{\personal}[1]{\renewcommand{\personal}{#1}}
+\newcommand{\goal}[1]{\renewcommand{\goal}{#1}}
 
 
 % Command for printing the contact information icons
@@ -258,12 +259,20 @@
 	    \vspace{4mm}
         \profilesection{Competitions}{3cm}
         \awards
+
+        \vspace{4mm}
+        \profilesection{Skills}{4.7cm}
+
+    	\skills
+    	\\
 	%------------------------------------------------
+        \vspace{4mm}
+        \profilesection{Goals}{4.7cm}
+        \goal
+
         \vspace{4mm}
         \profilesection{Personal qualities}{1.7cm}
         \personal
-
-
 
  
   \end{textblock}
