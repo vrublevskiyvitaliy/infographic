@@ -258,10 +258,6 @@
 	    \vspace{4mm}
         \profilesection{Competitions}{3cm}
         \awards
-    %------------------------------------------------
-        \vspace{4mm}
-        \profilesection{Publications}{3cm}
-        \publications
 	%------------------------------------------------
         \vspace{4mm}
         \profilesection{Personal qualities}{1.7cm}
