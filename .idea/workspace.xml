@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.synctex.gz" afterPath="$PROJECT_DIR$/template.synctex.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.log" afterPath="$PROJECT_DIR$/template.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.tex" afterPath="$PROJECT_DIR$/template.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twentysecondcv.cls" afterPath="$PROJECT_DIR$/twentysecondcv.cls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Infographic-CV.iws" />
@@ -38,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twentysecondcv.cls" pinned="false" current-in-tab="true">
+      <file leaf-file-name="twentysecondcv.cls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twentysecondcv.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7548387" vertical-offset="2985" max-vertical-offset="5880">
+            <state vertical-scroll-proportion="-21.666666" vertical-offset="2985" max-vertical-offset="5880">
               <caret line="238" column="41" selection-start-line="238" selection-start-column="41" selection-end-line="238" selection-end-column="41" />
               <folding />
             </state>
@@ -55,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.tex" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template.tex" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1153846" vertical-offset="455" max-vertical-offset="2490">
-              <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.39333335" vertical-offset="440" max-vertical-offset="2490">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -73,8 +72,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template.tex" />
         <option value="$PROJECT_DIR$/twentysecondcv.cls" />
+        <option value="$PROJECT_DIR$/template.tex" />
       </list>
     </option>
   </component>
@@ -423,18 +422,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.tex">
+    <entry file="file://$PROJECT_DIR$/twentysecondcv.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1153846" vertical-offset="455" max-vertical-offset="2490">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+        <state vertical-scroll-proportion="-21.666666" vertical-offset="2985" max-vertical-offset="5880">
+          <caret line="238" column="41" selection-start-line="238" selection-start-column="41" selection-end-line="238" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twentysecondcv.cls">
+    <entry file="file://$PROJECT_DIR$/template.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7548387" vertical-offset="2985" max-vertical-offset="5880">
-          <caret line="238" column="41" selection-start-line="238" selection-start-column="41" selection-end-line="238" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.39333335" vertical-offset="440" max-vertical-offset="2490">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
           <folding />
         </state>
       </provider>
