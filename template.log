@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 OCT 2017 14:22
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 OCT 2017 15:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1251,6 +1251,12 @@ Overfull \hbox (1.37547pt too wide) in paragraph at lines 58--58
 []$[]$| 
  []
 
+File: img/HackerRank_logo.png Graphic file (type QTm)
+<use  "img/HackerRank_logo.png" >
+Overfull \hbox (1.7324pt too wide) in paragraph at lines 58--58
+[]$[]$| 
+ []
+
 File: img/email.png Graphic file (type QTm)
 <use  "img/email.png" >
 Overfull \hbox (2.10054pt too wide) in paragraph at lines 58--58
@@ -1340,10 +1346,10 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 156.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 33903 strings out of 493591
- 654281 string characters out of 6143547
- 690788 words of memory out of 5000000
- 36880 multiletter control sequences out of 15000+600000
+ 33906 strings out of 493591
+ 654330 string characters out of 6143547
+ 690908 words of memory out of 5000000
+ 36882 multiletter control sequences out of 15000+600000
  4184 words of font info for 38 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  62i,22n,75p,10386b,765s stack positions out of 5000i,500n,10000p,200000b,80000s

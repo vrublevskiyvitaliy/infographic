@@ -133,6 +133,7 @@
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand{\cvsite}[1]{\renewcommand{\cvsite}{#1}}
+\newcommand{\cvhaker}[1]{\renewcommand{\cvhaker}{#1}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
@@ -203,8 +204,15 @@
               \begin{array}{l}
               {\href{\cvsite}{\includegraphics[scale=0.045]{img/git_logo.png}}}
               \end{array}
-              $} 
+              $}
             & \cvsite\\}
+      \ifthenelse{\equal{\cvhaker}{}}{}{
+            {$
+              \begin{array}{l}
+              {\href{\cvhaker}{\includegraphics[scale=0.63]{img/HackerRank_logo.png}}}
+              \end{array}
+              $}
+             & \href{\cvhaker}{vrublevskyi} \\}
       \ifthenelse{\equal{\cvmail}{}}{}{
             {$
               \begin{array}{l}
