@@ -327,13 +327,22 @@
 }
 
 \newcommand{\twentyitem}[5]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	#1&\parbox[t]{0.84\textwidth}{%
 		\textbf{#2}% 
 		\hfill%
 		{\footnotesize#3}\\%
         \ifblank{#4}{}{#4 \\}
 		#5\vspace{\parsep}%
 	}\\
+}
+\newcommand{\twentyitemwithoutend}[5]{%
+	#1&\parbox[t]{0.84\textwidth}{%
+		\textbf{#2}%
+		\hfill%
+		{\footnotesize#3}\\%
+        \ifblank{#4}{}{#4 \\}
+		#5\vspace{\parsep}%
+	}
 }
 
 \newcommand{\twentyitemNew}[5]{%
@@ -377,7 +386,7 @@
 %	 MARGINS AND LINKS
 %----------------------------------------------------------------------------------------
 
-\RequirePackage[left=7.6cm,top=0.1cm,right=1cm,bottom=0.2cm,nohead,nofoot]{geometry}
+\RequirePackage[left=7.6cm,top=0.1cm,right=1cm,bottom=0.1cm,nohead,nofoot]{geometry}
 
 
 \usepackage{smartdiagram}
@@ -389,7 +398,7 @@
     %  specifies the minimum size of the bubbles
     bubble node size = 0.5cm,
     % specifies which is the distance among the bubble center node and the other bubbles
-    distance center/other bubbles = 0.3cm,
+    distance center/other bubbles = 0.35cm,
     % sets the distance from the text to the border of the bubble center node
     distance text center bubble = 0.5cm,
     % set center bubble color
