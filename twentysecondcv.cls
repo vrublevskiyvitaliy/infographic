@@ -335,6 +335,15 @@
 		#5\vspace{\parsep}%
 	}\\
 }
+\newcommand{\twentyitemwithoutbegin}[5]{%
+	\parbox[t]{1\textwidth}{%
+		\textbf{#2}%
+		\hfill%
+		{\footnotesize#3}\\%
+        \ifblank{#4}{}{#4 \\}
+		#5\vspace{\parsep}%
+	}\\
+}
 \newcommand{\twentyitemwithoutend}[5]{%
 	#1&\parbox[t]{0.84\textwidth}{%
 		\textbf{#2}%
