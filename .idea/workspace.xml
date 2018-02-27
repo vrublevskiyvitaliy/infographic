@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8c8e889-ad48-4e2b-bc3a-41dd9e93c816" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/1.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.tex" afterPath="$PROJECT_DIR$/template.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.pdf" afterPath="$PROJECT_DIR$/template.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.synctex.gz" afterPath="$PROJECT_DIR$/template.synctex.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.log" afterPath="$PROJECT_DIR$/template.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twentysecondcv.cls" afterPath="$PROJECT_DIR$/twentysecondcv.cls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Infographic-CV.iws" />
@@ -35,25 +37,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twentysecondcv.cls" pinned="false" current-in-tab="false">
+      <file leaf-file-name="twentysecondcv.cls" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twentysecondcv.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5055" max-vertical-offset="6420">
-              <caret line="337" column="35" selection-start-line="337" selection-start-column="13" selection-end-line="337" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.6323077" vertical-offset="3204" max-vertical-offset="6420">
+              <caret line="241" column="35" selection-start-line="241" selection-start-column="35" selection-end-line="241" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.tex" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template.tex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12057878" vertical-offset="1830" max-vertical-offset="2775">
+            <state vertical-scroll-proportion="-1.3636364" vertical-offset="1830" max-vertical-offset="2775">
               <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codeforceslogo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/codeforceslogo.png">
+          <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
@@ -66,8 +75,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/twentysecondcv.cls" />
         <option value="$PROJECT_DIR$/template.tex" />
+        <option value="$PROJECT_DIR$/twentysecondcv.cls" />
       </list>
     </option>
   </component>
@@ -468,6 +477,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3636364" vertical-offset="1830" max-vertical-offset="2775">
+          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/img/codeforceslogo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -475,21 +495,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twentysecondcv.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5055" max-vertical-offset="6420">
-          <caret line="337" column="35" selection-start-line="337" selection-start-column="13" selection-end-line="337" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.6323077" vertical-offset="3204" max-vertical-offset="6420">
+          <caret line="241" column="35" selection-start-line="241" selection-start-column="35" selection-end-line="241" selection-end-column="35" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12057878" vertical-offset="1830" max-vertical-offset="2775">
-          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
   </component>

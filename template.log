@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 FEB 2018 10:35
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 FEB 2018 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1233,14 +1233,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 66.
-File: img/LinkedIn_Logo.png Graphic file (type QTm)
-<use  "img/LinkedIn_Logo.png" >
-Overfull \hbox (41.76965pt too wide) in paragraph at lines 66--66
-[]$[]$| 
- []
-
+File: img/LinkedIn_Logo_mini.png Graphic file (type QTm)
+<use  "img/LinkedIn_Logo_mini.png" >
 File: img/tel.png Graphic file (type QTm)
-<use  "img/tel.png" >
+ <use  "img/tel.png" >
 Overfull \hbox (2.1019pt too wide) in paragraph at lines 66--66
 []$[]$| 
  []
@@ -1257,19 +1253,12 @@ Overfull \hbox (1.7324pt too wide) in paragraph at lines 66--66
 []$[]$| 
  []
 
-File: img/leetcode-logo.png Graphic file (type QTm)
-<use  "img/leetcode-logo.png" >
-Overfull \hbox (59.82816pt too wide) in paragraph at lines 66--66
-[]$[]$| 
- []
-
-File: img/codeforceslogo.png Graphic file (type QTm)
-<use  "img/codeforceslogo.png" >
-Overfull \hbox (93.34435pt too wide) in paragraph at lines 66--66
-[]$[]$| 
- []
-
+File: img/leetcode-logo_mini.png Graphic file (type QTm)
+<use  "img/leetcode-logo_mini.png" >
+File: img/codeforceslogo_mini.png Graphic file (type QTm)
+ <use  "img/codeforceslogo_mini.png" >
 File: img/kaggle.png Graphic file (type QTm)
+
 <use  "img/kaggle.png" >
 Overfull \hbox (29.7908pt too wide) in paragraph at lines 66--66
 []$[]$| 
@@ -1377,8 +1366,8 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 179.
  ) 
 Here is how much of TeX's memory you used:
  33953 strings out of 493591
- 655247 string characters out of 6143547
- 694529 words of memory out of 5000000
+ 655277 string characters out of 6143547
+ 694523 words of memory out of 5000000
  36934 multiletter control sequences out of 15000+600000
  4184 words of font info for 38 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191

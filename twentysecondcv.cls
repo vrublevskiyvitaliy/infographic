@@ -201,9 +201,9 @@
           \ifthenelse{\equal{\cvlinkedin}{}}{}{
             {$
               \begin{array}{l}
-              {\href{\cvlinkedin}{\includegraphics[scale=0.03]{img/LinkedIn_Logo.png}}}
+              {\href{\cvlinkedin}{\includegraphics[scale=0.03]{img/LinkedIn_Logo_mini.png}}}
               \end{array}
-              $} & \href{\cvlinkedin}{\hspace{10mm}vitalii-vrublevskyi} \\
+              $} & \href{\cvlinkedin}{vitalii-vrublevskyi} \\
             }
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
             {$
@@ -229,17 +229,17 @@
       \ifthenelse{\equal{\cvleetcode}{}}{}{
             {$
               \begin{array}{l}
-              {\href{\cvleetcode}{\includegraphics[scale=0.063]{img/leetcode-logo.png}}}
+              {\href{\cvleetcode}{\includegraphics[scale=0.063]{img/leetcode-logo_mini.png}}}
               \end{array}
               $}
-             & \href{\cvleetcode}{\hspace{16mm}vitalii-vrublevskyi} \\}
+             & \href{\cvleetcode}{vitalii-vrublevskyi} \\}
       \ifthenelse{\equal{\cvcodeforce}{}}{}{
             {$
               \begin{array}{l}
-              {\href{\cvcodeforce}{\includegraphics[scale=0.15]{img/codeforceslogo.png}}}
+              {\href{\cvcodeforce}{\includegraphics[scale=0.15]{img/codeforceslogo_mini.png}}}
               \end{array}
               $}
-             & \href{\cvcodeforce}{\hspace{30mm}Steel\_Rat11} \\}
+             & \href{\cvcodeforce}{Steel\_Rat11} \\}
       \ifthenelse{\equal{\cvkaggle}{}}{}{
             {$
               \begin{array}{l}
