@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  7 JAN 2018 17:57
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 FEB 2018 10:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1349,31 +1349,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--90
 
 File: img/git_logo.png Graphic file (type QTm)
 <use  "img/git_logo.png" >
-File: img/git_logo.png Graphic file (type QTm)
- <use  "img/git_logo.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 File: img/git_logo.png Graphic file (type QTm)
 <use  "img/git_logo.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 141--162
+File: img/git_logo.png Graphic file (type QTm)
+ <use  "img/git_logo.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 140--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--179
+Underfull \hbox (badness 10000) in paragraph at lines 162--178
 
  []
 
 [1
 
 ] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./template.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 180.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 179.
  ) 
 Here is how much of TeX's memory you used:
  33953 strings out of 493591
