@@ -240,20 +240,20 @@
               \end{array}
               $}
              & \href{\cvcodeforce}{Steel\_Rat11} \\}
+      \ifthenelse{\equal{\cvmail}{}}{}{
+            {$
+              \begin{array}{l}
+              {\href{mailto:\cvmail}{\includegraphics[scale=0.04]{img/email.png}}}
+              \end{array}
+              $}
+            & \href{mailto:\cvmail}{\cvmail} \\}
       \ifthenelse{\equal{\cvkaggle}{}}{}{
             {$
               \begin{array}{l}
               {\href{\cvkaggle}{\includegraphics[scale=0.3]{img/kaggle.png}}}
               \end{array}
               $}
-             & \href{\cvkaggle}{\hspace{8mm}steelrat11} \\}
-      \ifthenelse{\equal{\cvmail}{}}{}{
-            {$
-              \begin{array}{l}
-              {\href{mailto:\cvmail}{\includegraphics[scale=0.04]{img/email.png}}}
-              \end{array}
-              $} 
-            & \href{mailto:\cvmail}{\cvmail}}
+             & \href{\cvkaggle}{\hspace{8mm}steelrat11}}
     \end{tabular}
 	%------------------------------------------------
 	    \vspace{4mm}

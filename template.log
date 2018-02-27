@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 FEB 2018 10:53
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.8)  27 FEB 2018 11:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1257,16 +1257,16 @@ File: img/leetcode-logo_mini.png Graphic file (type QTm)
 <use  "img/leetcode-logo_mini.png" >
 File: img/codeforceslogo_mini.png Graphic file (type QTm)
  <use  "img/codeforceslogo_mini.png" >
-File: img/kaggle.png Graphic file (type QTm)
+File: img/email.png Graphic file (type QTm)
 
-<use  "img/kaggle.png" >
-Overfull \hbox (29.7908pt too wide) in paragraph at lines 66--66
+<use  "img/email.png" >
+Overfull \hbox (2.10054pt too wide) in paragraph at lines 66--66
 []$[]$| 
  []
 
-File: img/email.png Graphic file (type QTm)
-<use  "img/email.png" >
-Overfull \hbox (2.10054pt too wide) in paragraph at lines 66--66
+File: img/kaggle.png Graphic file (type QTm)
+<use  "img/kaggle.png" >
+Overfull \hbox (29.7908pt too wide) in paragraph at lines 66--66
 []$[]$| 
  []
 
