@@ -20,6 +20,7 @@
 \RequirePackage{parskip}
 
 \usepackage{enumitem}
+\usepackage{multicol}
 \setlist[itemize]{leftmargin=*}
 
 \RequirePackage[hidelinks]{hyperref}
@@ -144,6 +145,7 @@
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
 \newcommand{\awards}[1]{\renewcommand{\awards}{#1}}
+\newcommand{\hackatons}[1]{\renewcommand{\hackatons}{#1}}
 \newcommand{\publications}[1]{\renewcommand{\publications}{#1}}
 \newcommand{\personal}[1]{\renewcommand{\personal}{#1}}
 \newcommand{\goal}[1]{\renewcommand{\goal}{#1}}
@@ -259,12 +261,10 @@
 	    \vspace{4mm}
         \profilesection{Competitions}{3cm}
         \awards
-
-        \vspace{4mm}
-        \profilesection{Skills}{4.7cm}
-
-    	\skills
-    	\\
+	%------------------------------------------------
+	    \vspace{4mm}
+        \profilesection{Hackatons}{3cm}
+        \hackatons
 	%------------------------------------------------
         \vspace{4mm}
         \profilesection{Goals}{4.7cm}
@@ -273,7 +273,6 @@
         \vspace{4mm}
         \profilesection{Personal qualities}{1.7cm}
         \personal
-
  
   \end{textblock}
 }
